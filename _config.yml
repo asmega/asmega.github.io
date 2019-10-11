@@ -8,6 +8,7 @@ url:         "https://www.normalabnormal.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - projects.md
 
 # Google services
 google_verification:
