@@ -1,14 +1,13 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       normalabnormal
+email:       asmega@gmail.com
+author:      Phil Lee
+description: "Random postings of a Software Engineer"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://www.normalabnormal.com"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
 
 # Google services
 google_verification:
@@ -114,7 +113,7 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink:    ':title:output_ext'
 paginate:     4
 sass:
   style: compressed
